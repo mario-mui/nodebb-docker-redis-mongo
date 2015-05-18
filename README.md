@@ -1,7 +1,7 @@
 
 ## Installation
 ```
-git clone https://github.com/mario56/nodebb-docker-redis.git
+git clone https://github.com/mario56/nodebb-docker-redis-mongo.git
 ```
 ```
 cd nodebb-docker-redis-mongo
