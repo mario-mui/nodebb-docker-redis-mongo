@@ -24,13 +24,13 @@ docker run --name cloud-mongo -d -p 27017:27017 mongo
 cd ..
 docker run --name cloud-nodebb --link cloud-redis:redis  -p 4567:4567 -P -t -i nodebb
 
-### set NodeBB
+#### set NodeBB
 
 go to localhost:4567
 
 set redis host to redis
 
-### start nodebb
+#### start nodebb
 
 docker start cloud-nodebb
 
@@ -38,13 +38,13 @@ docker start cloud-nodebb
 cd ..
 docker run --name cloud-nodebb --link cloud-mongo:mongo  -p 4567:4567 -P -t -i nodebb
 
-### set NodeBB
+#### set NodeBB
 
 go to localhost:4567
 
 set mongo host to mongo
 
-### start nodebb
+#### start nodebb
 
 docker start cloud-nodebb
 
